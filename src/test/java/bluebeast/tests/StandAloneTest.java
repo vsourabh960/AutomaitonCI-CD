@@ -16,6 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StandAloneTest {
 	public static void main(String[] args) {
+		//New comments are added
 		WebDriverManager.chromedriver().setup();
 		
 		/*  options.setAcceptInsecureCerts(true); tells ChromeDriver to accept insecure certificates,
